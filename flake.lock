@@ -41,11 +41,11 @@
     "src": {
       "flake": false,
       "locked": {
-        "lastModified": 1580501590,
-        "narHash": "sha256-OjU3Oomhgip1FgepnyaqesfAgkoziaryMVeVUJwJD2c=",
+        "lastModified": 1671343925,
+        "narHash": "sha256-3DX/OVjKXyeOmO6P6iz1FTkNQ0n7vUFkKQ5Ac+7t3l4=",
         "owner": "cgao3",
         "repo": "benzene-vanilla-cmake",
-        "rev": "ffea736d16bd106e38b9b8f77fc56d6fd688bca7",
+        "rev": "95614769bafc9850a3cc54974660bb1795db6086",
         "type": "github"
       },
       "original": {
