@@ -1,0 +1,26 @@
+diff --git a/src/mohex/MoHexBoard.hpp b/src/mohex/MoHexBoard.hpp
+index 1a951c9..7e05223 100644
+--- a/src/mohex/MoHexBoard.hpp
++++ b/src/mohex/MoHexBoard.hpp
+@@ -59,7 +59,7 @@ private:
+ 
+         BOOST_STATIC_ASSERT(NORTH < SOUTH);
+         BOOST_STATIC_ASSERT(EAST < WEST);
+-        BOOST_STATIC_ASSERT(BITSETSIZE <= 256);
++        // BOOST_STATIC_ASSERT(BITSETSIZE <= 256);
+     };
+ 
+     const ConstBoard* m_const;
+diff --git a/src/util/Benzene.hpp b/src/util/Benzene.hpp
+index 3ce3671..1b6ab86 100644
+--- a/src/util/Benzene.hpp
++++ b/src/util/Benzene.hpp
+@@ -6,6 +6,8 @@
+ #ifndef BENZENE_HPP
+ #define BENZENE_HPP
+ 
++#define SUPPORT_19x19
++
+ //----------------------------------------------------------------------------
+ 
+ /** Suppresses compiler warnings about unused variables. 
