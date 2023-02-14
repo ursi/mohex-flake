@@ -1,6 +1,6 @@
 { inputs =
-    { nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-      src = { url = "github:cgao3/benzene-vanilla-cmake"; flake = false; };
+    { mohex = { url = "github:cgao3/benzene-vanilla-cmake"; flake = false; };
+      nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
       utils.url = "github:ursi/flake-utils/8";
     };
 
@@ -11,7 +11,7 @@
          { packages.default =
              p.stdenv.mkDerivation
                { name = "mohex";
-                 inherit (inputs) src;
+                 src = inputs.mohex;
                  nativeBuildInputs = [ p.cmake ];
                  buildInputs = [ p.boost p.db ];
 

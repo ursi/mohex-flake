@@ -15,6 +15,22 @@
         "type": "github"
       }
     },
+    "mohex": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671343925,
+        "narHash": "sha256-3DX/OVjKXyeOmO6P6iz1FTkNQ0n7vUFkKQ5Ac+7t3l4=",
+        "owner": "cgao3",
+        "repo": "benzene-vanilla-cmake",
+        "rev": "95614769bafc9850a3cc54974660bb1795db6086",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cgao3",
+        "repo": "benzene-vanilla-cmake",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1668972439,
@@ -33,25 +49,9 @@
     },
     "root": {
       "inputs": {
+        "mohex": "mohex",
         "nixpkgs": "nixpkgs",
-        "src": "src",
         "utils": "utils"
-      }
-    },
-    "src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1671343925,
-        "narHash": "sha256-3DX/OVjKXyeOmO6P6iz1FTkNQ0n7vUFkKQ5Ac+7t3l4=",
-        "owner": "cgao3",
-        "repo": "benzene-vanilla-cmake",
-        "rev": "95614769bafc9850a3cc54974660bb1795db6086",
-        "type": "github"
-      },
-      "original": {
-        "owner": "cgao3",
-        "repo": "benzene-vanilla-cmake",
-        "type": "github"
       }
     },
     "utils": {
